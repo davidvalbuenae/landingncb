@@ -1641,6 +1641,7 @@ footer a{
   #cities #cities-slider .cities-slider--city--top .cities-wrapper {
     max-width: 100%;
     width: 100%;
+    text-align: center;
   }
   #cities #cities-slider .cities-slider--city--top .cities-wrapper .cities-slider--city--top__title {
     font-size: 34px;
@@ -2007,6 +2008,10 @@ footer a{
   #benefits .benefits-panel button {
     position: absolute;
     left: 0;
+  }
+  .cities-footer.footer3 .bottom-text--text{
+    font-size: 22px;
+    padding: 5px;
   }
 }
 @media only screen and (min-width: 767px) and (max-width: 968px) {
