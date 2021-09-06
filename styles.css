@@ -1500,7 +1500,10 @@ footer a{
     max-height: 50px;
     width: 100%;
   }
-
+  .cities-footer.footer2 .bottom-text--text{
+    font-size: 24px;
+    line-height: 36px;
+  }
   .cities-footer--logo img {
     margin: 0 auto;
     max-height: 50px;
@@ -1604,6 +1607,10 @@ footer a{
 
   #cities .container-fluid {
     padding: 0 20px;
+  }
+  #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .card-title{
+    font-size: 26px;
+    line-height: 35px;
   }
   .section-slider-top #cities-slider .cities-slider--city--top .cities-wrapper .img-wraper {
     width: 150px;
