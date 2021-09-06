@@ -2017,7 +2017,8 @@ footer a{
     left: 0;
   }
   .cities-footer.footer3 .bottom-text--text{
-    font-size: 22px;
+    font-size: 20px;
+    line-height: 30px;
     padding: 5px;
   }
 }
