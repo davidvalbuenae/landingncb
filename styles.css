@@ -52,7 +52,11 @@ body {
 b {
   font-weight: 700;
 }
-
+a{
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
 .collapsing {
   font-size: 21px;
   line-height: 25px;
@@ -210,7 +214,6 @@ b {
 #home-bottom .bottom-text--text {
   font-size: 33px;
   line-height: 41px;
-  font-weight: 200;
   margin-bottom: 20px;
 }
 .text-semi-bold-template {
@@ -345,7 +348,7 @@ b {
   flex-wrap: wrap;
 }
 .section-slider-top #cities-slider .cities-slider--city--top .card-wrapper--textbox--group__title {
-  font-size: 35px;
+  font-size: 40px;
   line-height: 45px;
   padding-left: 50px;
   padding-top: 50px;
@@ -890,7 +893,6 @@ b {
 #services--mid {
   padding-top: 180px;
   padding-bottom: 40px;
-  background-image: url("../img/footer-bg.png");
   background-position: center;
   background-size: cover;
 }
@@ -1462,7 +1464,6 @@ b {
 .footer {
   text-align: center;
   padding: 60px 0;
-  background-image: url("../img/footer-bg.png");
   background-position: center;
   background-size: cover;
 }
@@ -1474,7 +1475,9 @@ b {
 .menu-on {
   right: 0 !important;
 }
-
+footer a{
+  color: #fff;
+}
 /* === Responsive === */
 /*small devices media xpress*/
 @media only screen and (max-width: 767px) {

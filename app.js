@@ -12,7 +12,7 @@ $(document).ready(() => {
                 speed: 500,
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                autoplay: false,
+                autoplay: true,
                 autoplaySpeed: 2000,
                 prevArrow: ".arrow-left2",
                 nextArrow: ".arrow-right2",
@@ -192,9 +192,9 @@ $(document).ready(() => {
 
     observer.observe(document.querySelector(".bottom-text--img"));
     observer.observe(document.querySelector("#travel .bottom-text--img"));
-    observer.observe(document.querySelector("#services .bottom-text--img"));
-    observer.observe(document.querySelector("#protection .bottom-text--img"));
-    observer.observe(document.querySelector("#benefits .bottom-text--img"));
+    observer.observe(document.querySelector("#rewards .bottom-text--img"));
+    observer.observe(document.querySelector("#peace .bottom-text--img"));
+    observer.observe(document.querySelector("#exclusive .bottom-text--img"));
 
     // active class for menu
 
@@ -207,7 +207,7 @@ $(document).ready(() => {
 
 // scrollSpy function
 function scrollSpy() {
-    const sections = ["home", "travel", "services", "protection", "benefits"];
+    const sections = ["home", "travel", "rewards", "peace", "exclusive"];
     let current;
 
     for (let i = 0; i < sections.length; i++) {
