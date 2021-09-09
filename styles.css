@@ -348,14 +348,14 @@ a{
   flex-wrap: wrap;
 }
 .section-slider-top #cities-slider .cities-slider--city--top .card-wrapper--textbox--group__title {
-  font-size: 40px;
-  line-height: 45px;
+  font-size: 44px;
+  line-height: 50px;
   padding-left: 50px;
   padding-top: 50px;
   color: #000;
 }
 .section-slider-top #cities-slider .cities-slider--city--top .cities-wrapper .img-wraper {
-  width: 250px;
+  width: 350px;
   position: absolute;
   bottom: 0;
 }
@@ -527,8 +527,8 @@ a{
   z-index: 1;
 }
 #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .card-text {
-  font-size: 21px;
-  line-height: 33px;
+  font-size: 18px;
+  line-height: 24px;
   font-weight: 300;
 }
 #cities-slider .cities-slider--city--bottom .cities-slider--city--bottom__card .back-top {
