@@ -224,7 +224,7 @@ function scrollSpy() {
 $(".main-header--nav-menu a").click(function () {
     const target = $(this).attr("href");
     $("body, html").animate({
-        scrollTop: $(target).offset().top,
+        scrollTop: $(target).offset(50).top,
     }, 0);
     return false;
 });

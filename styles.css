@@ -355,7 +355,7 @@ a{
   color: #000;
 }
 .section-slider-top #cities-slider .cities-slider--city--top .cities-wrapper .img-wraper {
-  width: 350px;
+  width: 360px;
   position: absolute;
   bottom: 0;
 }
@@ -368,6 +368,9 @@ a{
 
 #cities-slider .card-back-text a {
   color: #fff;
+}
+#cities #cities-slider .cities-slider--city .img-card-mobile{
+  display: none;
 }
 #cities-slider .card-back-text a.more-btn {
   position: absolute;
@@ -575,7 +578,7 @@ a{
   background-image: url("img/slider-new-york.png");
 }
 #cities-slider .cities-slider--city .city--hom2--top {
-  background-image: url("img/home-bg2.png");
+  background-image: url("img/paris.jpg");
 }
 #cities-slider .cities-slider--city .city--hom3--top {
   background-image: url("img/home-bg3.png");
@@ -1613,23 +1616,24 @@ footer a{
     line-height: 35px;
   }
   .section-slider-top #cities-slider .cities-slider--city--top .cities-wrapper .img-wraper {
-    width: 150px;
+    width: 170px;
+    left: -30px;
   }
   .section-slider-top #cities-slider .cities-slider--city--top .cities-wrapper {
-    order: 2;
+    order: ;
   }
   .section-slider-top #cities-slider .cities-slider--city--top .cities-wrapper2 {
-    width: 100%;
-    max-width: 100%;
+    display: none;
     order: 1;
     height: 200px;
     z-index: 1;
   }
   .section-slider-top #cities-slider .cities-slider--city--top .card-wrapper--textbox {
     width: 100%;
-    justify-content: center;
+    justify-content: flex-end;
     display: flex;
-    text-align: center;
+    text-align: left;
+    padding-right: 20px;
   }
   .section-slider-top #cities-slider .cities-slider--city--top .card-wrapper--textbox--group__title {
     padding: 0 !important;
@@ -1645,6 +1649,17 @@ footer a{
     padding: 0;
     justify-content: center;
   }
+  #cities #cities-slider .cities-slider--city .img-card-mobile{
+    width: 100%;
+    max-width: 100%;
+    margin-top: -80px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  #cities #cities-slider .cities-slider--city .img-card-mobile img{
+    width: 70%;
+    z-index: 5;
+  }
   #cities #cities-slider .cities-slider--city--top .cities-wrapper {
     max-width: 100%;
     width: 100%;
@@ -1657,7 +1672,11 @@ footer a{
     max-height: 65px;
   }
   #cities #cities-slider .cities-slider--city--top {
-    min-height: 500px;
+    min-height: 280px;
+  }
+  .section-slider-top #cities-slider .cities-slider--city--top .card-wrapper--textbox--group__title{
+    font-size: 24px;
+    line-height: 28px;
   }
   #cities #cities-slider .cities-slider--city--top .cities-slider--arrows .arrow {
     max-height: 50px;
