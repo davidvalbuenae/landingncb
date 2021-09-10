@@ -359,6 +359,10 @@ a{
   position: absolute;
   bottom: 0;
 }
+.section-slider-top #cities-slider .cities-slider--city--top.city--hom3--top .cities-wrapper .img-wraper {
+  width: 450px;
+  left: 200px;
+}
 .section-slider-top #cities-slider .cities-slider--city--top .cities-wrapper .img-wraper img {
   width: 100%;
   height: auto;
@@ -432,7 +436,7 @@ a{
   text-transform: uppercase;
 }
 .section-slider-top .cities-slider--city--top .cities-slider--arrows {
-  padding: 0 20px !important;
+  padding: 0 20px;
 }
 #cities-slider .cities-slider--city--top .cities-slider--arrows {
   position: absolute;
@@ -1619,6 +1623,10 @@ footer a{
     width: 170px;
     left: -30px;
   }
+  .section-slider-top #cities-slider .cities-slider--city--top.city--hom3--top .cities-wrapper .img-wraper {
+    width: 200px;
+    left: -15px;
+  }
   .section-slider-top #cities-slider .cities-slider--city--top .cities-wrapper {
     order: ;
   }
@@ -1712,7 +1720,15 @@ footer a{
     transform: none;
   }
   #cities #cities-slider .cities-slider--city--top .cities-slider--arrows {
-    padding: 0 30px;
+    padding: 0 10px!important;
+    top: 120%;
+  }
+  .arrows-mobile img{
+    width: 60px;
+    height: 60px;
+  }
+  .arrows-mobile{
+    justify-content: space-around;
   }
   #cities .other-cities {
     font-size: 24px !important;
