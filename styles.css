@@ -779,6 +779,9 @@ a{
   line-height: 25px;
   font-weight: 300;
 }
+#travel--bottom .travel-panel .button-action a{
+  text-decoration: underline;
+}
 #travel--bottom .travel-panel .collapse {
   border: none;
 }
